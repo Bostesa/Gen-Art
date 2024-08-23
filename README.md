@@ -80,36 +80,20 @@ Copy code
 docker run -it --rm gan-art-generation
 This will start the training process inside a Docker container.
 
-Discord Bot Integration
-The project includes a basic Discord bot that interacts with the model. The bot can generate images based on user input. Set up the bot by configuring the discord_bot/ directory and running the bot script.
+### Discord Bot Integration
+- The project includes a basic Discord bot that interacts with the model. The bot can generate images based on user input. Set up the bot by configuring the discord_bot/ directory and running the bot script.
 
-Results
-Generated images and logs are stored in the results/ directory. You can explore these results to evaluate the model's performance.
+### Results
+- Generated images and logs are stored in the results/ directory. You can explore these results to evaluate the model's performance.
 
-Contributing
-If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+### Contributing
+- If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+### License
+- This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
-The StyleGAN2 architecture is based on the work by NVIDIA, and the official implementation can be found here.
-The PyTorch version of StyleGAN2 can be found here.
-sql
-Copy code
+### Acknowledgments
 
-### How to Customize
+- The StyleGAN2 architecture is based on the work by NVIDIA, and the official implementation can be found [here](https://github.com/NVlabs/stylegan2).
+- The PyTorch version of StyleGAN2 can be found [here](https://github.com/rosinality/stylegan2-pytorch).
 
-- **Replace** `https://github.com/yourusername/GAN-Art-Generation.git` with your actual GitHub repository URL.
-- **Update** the `README.md` with specific instructions for your datasets, training parameters, or any other unique aspects of your project.
-- **Add** any additional sections as needed, such as "Known Issues", "Future Work", etc.
-
-### Final Steps
-
-1. **Add the `README.md` file** to your project.
-2. **Commit and push the changes** to GitHub:
-
-   ```sh
-   git add README.md
-   git commit -m "Add README.md with project details and instructions"
-   git push origin master
