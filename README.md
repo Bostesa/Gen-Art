@@ -79,6 +79,7 @@ sh
 Copy code
 docker run -it --rm gan-art-generation
 This will start the training process inside a Docker container.
+```
 
 ### Discord Bot Integration
 - The project includes a basic Discord bot that interacts with the model. The bot can generate images based on user input. Set up the bot by configuring the discord_bot/ directory and running the bot script.
